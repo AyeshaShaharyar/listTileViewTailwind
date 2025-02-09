@@ -3,9 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>List-Tile Views</title>
+    <title>List-Tile Toggle View</title>
     <link rel="stylesheet" href="output.css" />
   </head>
-  <body>
+  <body class="flex flex-col items-center p-6 bg-gray-100">
+    <h1 class="text-3xl font-bold text-red-400">List-View Toggle</h1>
+    <button
+      class="px-6 py-2 bg-red-100 m-8 rounded shadow text-gray-400 font-semibold hover:bg-red-200"
+    >
+      Switch to Tile View
+    </button>
+    <div id="itemsContainer" class="w-full max-w-2xl"></div>
   </body>
 </html>
